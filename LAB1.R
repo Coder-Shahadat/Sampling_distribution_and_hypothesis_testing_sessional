@@ -37,7 +37,7 @@ for (i in 1:300000) {
 }
 hist(nsample2)
 nsam2_median=median(nsample2)
-bias=mean(nsample2)-mean(Iq)
+bias=median(nsample2)-median(Iq)
 
 # efficiency check 
 L1=length(nsample)
