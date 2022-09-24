@@ -44,6 +44,6 @@ L1=length(nsample)
 V1=sum((nsample-population_mean)^2)/L1
 
 L2=length(nsample2)
-V2=sum((nsample2-population_mean)^2)/L2
+V2=sum((nsample2-median(Iq))^2)/L2
 
 # V1 is smaller than V2 so V1 is more efficient
